@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "alias": [
+      "www.dungeoneer.io"
+  ],
+  "routes": [
+     { "src": "/(.*)", "status": 301, "headers": { "Location": "https://dungeoneer.io/$1" }}
+  ]
+}
